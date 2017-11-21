@@ -19,6 +19,10 @@ menu, nav, output, ruby, section, summary,{
 
 /* == styling == */
 
+body {
+  background-color: #f7f7f7;
+}
+
 h1, h3, p, li , ul, a {
   font-family: "Arial", "Helvetica", sans-serif;
 }
@@ -27,6 +31,14 @@ h1, h3, p, li , ul, a {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.hello {
+  width: 40%;
+  margin: 0 auto;
+  border: double black;
+  border-radius: 15px;
+  height: 12em;
 }
 
 h2 {
