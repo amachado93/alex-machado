@@ -69,3 +69,7 @@ h3 {
   font-size: 1.5em;
   border-bottom: solid 2px black;
 }
+
+.projects a {
+  padding-right: 1.5em;
+}
