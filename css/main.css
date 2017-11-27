@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin|Pacifico');
 
 /* == CSS reset == */
 
@@ -29,24 +29,43 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-p, a, ul, li {
-  font-family: 'Libre Baskerville', serif; 
+h1 {
+  font-size: 3em;
 }
 
-.intro {
-  width: 80%;
+p, a, ul, li {
+  font-family: 'Libre Baskerville', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  width: 90%;
   margin: 0 auto;
-  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.links li {
+  padding: .5em;
 }
 
 .hello {
-  width: 40%;
-  margin: 0 auto;
-  border: double black;
-  border-radius: 15px;
-  height: 12em;
+  width: 50%;
 }
 
 h2 {
+  font-size: 1.75em;
   font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: solid 2px black;
 }
