@@ -80,6 +80,6 @@ h3 {
   border-bottom: solid 2px black;
 }
 
-.projects a {
-  padding-right: 1.5em;
+.projects span {
+  padding-left: 1.5em;
 }
